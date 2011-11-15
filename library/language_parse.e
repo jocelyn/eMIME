@@ -84,7 +84,6 @@ feature -- Parser
 			end
 		end
 
-
 	fitness_and_quality_parsed (a_mime_type: STRING; parsed_ranges: LIST [LANGUAGE_RESULTS]): FITNESS_AND_QUALITY
 			-- Find the best match for a given mimeType against a list of media_ranges
 			-- that have already been parsed by parse_media_range. Returns a
