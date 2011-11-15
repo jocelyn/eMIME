@@ -86,7 +86,7 @@ def runTestForProject(where):
 		break
 
   print "\n"
-  if len(m) > 3 and m[2] == 0 and m[3] == 0:
+  if len(m) >= 3 and m[2] == 0 and m[3] == 0:
     print "%i tests completed successfully" % (m[0])
   else:
     print "Failures while running %i failed. %i executed  %i failures  %i unresolved" % (m[0], m[1], m[2], m[3])
